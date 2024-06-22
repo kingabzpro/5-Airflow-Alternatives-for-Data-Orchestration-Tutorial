@@ -1,0 +1,5 @@
+Name,Age,City,Salary
+ John Doe ,30.0,New York,"50,000"
+Jane Smith,,los angeles,60000
+Bob Johnson ,40.0,CHICAGO,"75,000"
+  Alice Brown,35.0,Houston,invalid

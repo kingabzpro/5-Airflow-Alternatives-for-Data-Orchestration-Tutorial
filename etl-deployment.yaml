@@ -1,0 +1,43 @@
+###
+### A complete description of a Prefect Deployment for flow 'etl'
+###
+name: simple_etl
+description: null
+version: 61a218331c13cbbda0718ba76285852c
+# The work queue that will handle this deployment's runs
+work_queue_name: default
+work_pool_name: null
+tags: []
+parameters: {}
+schedule: null
+schedules: []
+is_schedule_active: null
+infra_overrides: {}
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  block_type_slug: process
+  _block_type_slug: process
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: etl
+manifest_path: null
+storage: null
+path: C:\Repository\GitHub\5-Airflow-Alternatives-for-Data-Orchestration-Tutorial
+entrypoint: prefect_etl.py:etl
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties: {}
+  required: null
+  definitions: null
+timestamp: '2024-06-22T08:55:57.825110+00:00'
+triggers: []
+enforce_parameter_schema: null
